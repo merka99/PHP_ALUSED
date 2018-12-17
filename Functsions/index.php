@@ -1,7 +1,14 @@
+
+<html>
+<head>
+<title>Listing 6.1</title>
+</head>
+ <body>
 <?php
-/**
- * Created by PhpStorm.
- * User: merle.pakko
- * Date: 17.12.2018
- * Time: 13:19
- */
+  $num = -321;
+  $newnum = abs ($num) ;
+  print $newnum;
+  // prints "321"
+ ?>
+ </body>
+  </html>
