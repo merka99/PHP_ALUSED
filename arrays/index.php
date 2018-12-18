@@ -14,10 +14,13 @@ $kasutajad = array (
     )
 );
 for($i = 0; $i < count($kasutajad); $i++){
-    if ($kasutajad[$i][3] == 'female')
-        echo '<div style= "color: red">';
-    }else {
-    echo '<div style = "color: blue">';
+    foreach ($kasutajad[$i] as $info) {
+        if ($kasutajad[$i][3] == 'female') {
+            echo '<div style= "color: red">';
+        } else {
+            echo '<div style = "color: blue">';
+        }
+        echo $info . '<div>';
     }
-    echo $info.'<div>';
+    echo '<hr>';
 }
