@@ -24,3 +24,11 @@ for($i = 0; $i < count($kasutajad); $i++){
     }
     echo '<hr>';
 }
+$character = array ();
+$character ['name'] = "bob";
+$character ['occupation'] = "superhero";
+$character ['age'] = 30;
+$character ['special power'] = "x-ray vision";
+
+
+echo $character['age'];
