@@ -5,3 +5,5 @@ function keraRuumala($r1){
 function koonuseRuumala ($r2) {
 
 }
+$r1 = $_GET['r1'];
+echo keraRuumala($r1);
