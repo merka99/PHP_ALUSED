@@ -51,3 +51,42 @@ foreach ($character as $key=>$val )
 {
     print "$key = $val<br>";
 }
+echo '<hr>';
+
+$characters = array (
+    array ('nimi'=>"pops",
+        'occupation'=>"superhero",
+        'vanus'=>24,
+        'ala'=>"nähtamatu") ,
+    array ('nimi'=>"popa",
+    'occupation'=>"superman",
+    'vanus'=>23,
+    'ala'=>"hõljuv")
+);
+foreach ($characters as $val ) {
+    foreach ($val as $key=>$final_val) {
+        echo "$key: $final_val<br>";
+    }
+    print "<br>";
+}
+echo '<hr>';
+$first = array("a", "b", "c","d","e","f");
+$second = array_slice($first, 2, 3);
+foreach ($second as $var)
+{
+    print "$var<br>";
+}
+
+print "<br>";
+$an_array = array("x","a","f","c");
+sort( $an_array);
+foreach ( $an_array as $var )
+{
+    print "$var<br>";
+}
+
+echo "<br>";
+
+$filmid = array (
+    array ( 'filmi nimi'=>)
+)
