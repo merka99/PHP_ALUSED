@@ -24,3 +24,4 @@ function getData($sql, $conn){
     }
     return $data;
 }
+

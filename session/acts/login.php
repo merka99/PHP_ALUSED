@@ -18,3 +18,4 @@ if($users !== false){
     $_SESSION['user'] = $users[0];
     header('Location: ../index.php');
 }
+
